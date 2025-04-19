@@ -1,0 +1,1 @@
+SELECT * FROM product_catalog_db.product;
