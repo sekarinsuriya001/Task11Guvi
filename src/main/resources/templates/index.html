@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Product Catalog</title>
+    <link rel="stylesheet" type="text/css" th:href="@{style.css}"/>
+</head>
+<body>
+<h1>Welcome to the Product Catalog</h1>
+<ul>
+    <li><a th:href="@{/add-product}">Add Product</a></li>
+    <li><a th:href="@{/display-products}">Display Products</a></li>
+</ul>
+</body>
+</html>
